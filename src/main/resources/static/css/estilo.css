@@ -1,0 +1,126 @@
+
+body {
+
+    background-color: bisque;
+    font-family: cursive;
+
+}
+
+p{
+
+    color: blue;
+
+}
+
+
+nav a :hover{
+    background-color: black;
+    color: yellow;
+    text-decoration: none;
+
+
+
+}
+
+
+
+nav a:hover {
+
+    background-color: red;
+    color: yellow;
+    text-decoration: none;
+
+
+
+}
+
+tbody tr :nth-child(odd) {
+
+
+    background-color: #3b909c;
+    color: black
+
+
+}
+
+tbody tr:nth-child(even){
+
+    background-color: #a1905b;
+
+
+
+}
+
+
+thead tr{
+
+    background-color: black;
+    color: white;
+
+
+}
+
+.aviso{
+
+
+
+}
+
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 80px 20px  0;
+    background-color: whitesmoke;
+}
+
+header{
+
+    position: fixed;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100px;
+
+
+
+}
+
+aside{
+    position: fixed;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+
+
+
+}
+
+section{
+    position: fixed;
+    background-color: yellowgreen;
+    top: 80px;
+    left: 20%;
+    bottom: 20px;
+    height: 80px;
+    width: 80%;
+
+
+}
+
+footer{
+
+    position: fixed;
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+
+}
