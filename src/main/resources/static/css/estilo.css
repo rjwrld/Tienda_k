@@ -124,3 +124,31 @@ footer{
     width: 100%;
 
 }
+
+.logo{
+    font-size: 80px;
+    color: blue;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+    
+      
+    
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    padding: 0 auto;
+    
+}
+
+.nav-menu{
+    
+        display: flex;
+        
+    
+    
+}
