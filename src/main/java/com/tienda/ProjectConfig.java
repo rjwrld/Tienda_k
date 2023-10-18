@@ -1,4 +1,4 @@
-package com.tienda;
+    package com.tienda;
 
 import java.util.Locale;
 import org.springframework.context.MessageSource;
@@ -43,7 +43,7 @@ public class ProjectConfig implements WebMvcConfigurer {
     @Bean("messageSource")
     public MessageSource messageResource(){
         ResourceBundleMessageSource bundleMessageSource = new ResourceBundleMessageSource();
-        bundleMessageSource.setBasename("message");
+        bundleMessageSource.setBasename("messages");
          bundleMessageSource.setDefaultEncoding("UTF-8");
          return bundleMessageSource;
          
